@@ -109,7 +109,7 @@ while not gameexit:
     
 
     if(x_move==applex and y_move==appley):
-        print("yummm...")
+        print("yummm")
         length+=1
         applex=round(random.randrange(0,790)/10.0)*10.0
         appley=round(random.randrange(0,590)/10.0)*10.0
@@ -119,7 +119,7 @@ while not gameexit:
        
     clock.tick(15)
     
-messagetxt("loser HAHA",red)
+messagetxt("Game Over",red)
 pygame.display.update()
 time.sleep(2)
 pygame.quit()
